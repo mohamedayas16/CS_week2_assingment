@@ -1,0 +1,14 @@
+# Python temporary and compiled files
+__pycache__/
+*.pyc
+
+# LaTeX compiled outputs and logs
+*.aux
+*.log
+*.out
+*.pdf
+*.toc
+
+# Large research datasets that shouldn't be tracked
+*.csv
+*.dat
