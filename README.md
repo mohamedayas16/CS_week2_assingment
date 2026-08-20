@@ -19,25 +19,29 @@ This project contains computational analysis scripts and documentation for the c
 Follow these steps to reproduce the environment and run the analysis on a clean machine:
 
 ### 1. Prerequisites
-* **Python 3.8+**
+Ensure you have **Python 3.8+** installed. The project relies on the following core numerical and visualization libraries:
 * Required packages:
   ```bash
   pip install numpy matplotlib scipy
   ```
 ### 2. Clone the repository
+First, grab a local copy of the repository and switch into the project directory:
   ```bash
   git clone https://github.com/mohamedayas16/CS_week2_assingment.git
   cd CS_week2_assingment
   ```
 ### 3. Run the computational analysis script
+To process the data and generate the computational results and figures, run the main analysis script:
 ```bash
 python src/analysis.py
 ```
 ### 4. Compile the report
+If you want to re-generate the assignment PDF report from the LaTeX source:
 ```bash
 pdflatex docs/report.tex
 ```
 ## HOW to Cite
+If you use any part of this repository or want to reference this analysis, please cite it like this:
 ```bibtex
 @misc{computational_science_2026,
   author = {Mohamed Ayas Mohamed Kasim},
