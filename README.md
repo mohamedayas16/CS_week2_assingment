@@ -12,3 +12,14 @@ This project contains computational analysis scripts and documentation for the c
 │   └── analysis.py# Core analysis script
 ├── .gitignore     # Git ignore rules
 └── README.md      # Project overview and reproduction instructions
+
+## Getting Started & Reproduction Instructions
+
+Follow these steps to reproduce the environment and run the analysis on a clean machine:
+
+### 1. Prerequisites
+* **Python 3.8+**
+* Required packages:
+  ```bash
+  pip install numpy matplotlib scipy
+  
