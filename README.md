@@ -12,6 +12,7 @@ This project contains computational analysis scripts and documentation for the c
 │   └── analysis.py# Core analysis script
 ├── .gitignore     # Git ignore rules
 └── README.md      # Project overview and reproduction instructions
+```
 
 ## Getting Started & Reproduction Instructions
 
@@ -22,4 +23,28 @@ Follow these steps to reproduce the environment and run the analysis on a clean 
 * Required packages:
   ```bash
   pip install numpy matplotlib scipy
-  
+  ```
+### 2. Clone the repository
+  ```bash
+  git clone https://github.com/mohamedayas16/CS_week2_assingment.git
+  cd CS_week2_assingment
+  ```
+### 3. Run the computational analysis script
+```bash
+python src/analysis.py
+```
+### 4. Compile the report
+```bash
+pdflatex docs/report.tex
+```
+## HOW to Cite
+```bibtex
+@misc{computational_science_2026,
+  author = {Mohamed Ayas Mohamed Kasim},
+  title = {Semester II - Computational Science Project Repository},
+  year = {2026},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/mohamedayas16/CS_week2_assingment}}
+}
+```
