@@ -5,13 +5,15 @@ This project contains computational analysis scripts and documentation for the c
 ## Repository Structure
 
 ```text
-├── data/          # Input datasets and generated data
+├── Data/          # Input datasets and generated data
+├── Notebook/      # Plans and records of the project
 ├── docs/          # Reports, TeX documentation, and notes
 │   └── report.tex # Main assignment report
 ├── src/           # Source code and computational scripts
 │   └── analysis.py# Core analysis script
 ├── .gitignore     # Git ignore rules
-└── README.md      # Project overview and reproduction instructions
+├── README.md      # Project overview and reproduction instructions
+└── LICENSE        # MIT LICENSE of the project.
 ```
 
 ## Getting Started & Reproduction Instructions
